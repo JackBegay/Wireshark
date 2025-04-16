@@ -1,17 +1,15 @@
 # Wireshark
 
 ## Objective
-https://github.com/JackBegay/Detection-lab/tree/main
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+In the given scenario I was tasked as a security analyst to investigate traffic to a website. I analyzed a network packet capture file containing traffic data about users connecting to an interal site.  I had to filter through data to identify the source and destination IP addresses involed in the web browser session, examine which protocols were being used in making a connection to the site, and analyze data packets to identify what types of information were sent and received by the systems that were connected when the packets were captured. 
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Advanced understanding of using Wireshark to inspect activity on a network
+- Proficiency in analyzing different data packets and their source and destination IP addresses
+- Ability to filter through packets based on their IP address, MAC address, communication protocol, or port number 
+- Enhanced knowledge of hig-level packet data like the DNS that was queried, time to live, and frame length
 
 ### Tools Used
 
