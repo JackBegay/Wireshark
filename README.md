@@ -19,8 +19,11 @@ In the given scenario I was tasked as a security analyst to investigate traffic 
 ## Steps
 1. First I had to load the file sample.pcap on wireshark
 
-2. Once loaded I had to search for any traffic coming from the given IP address, 142.250.1.139, with the command   ip.addr == 142.250.1.139  . This pulled up a list of results for traffic with the associated IP address.
+2. Once loaded I had to search for any traffic coming from the source IP address, 142.250.1.139, with the command   ip.src == 142.250.1.139  . This pulled up a list of results for traffic with the associated source IP address.
 ![Screenshot 2025-04-15 152605](https://github.com/user-attachments/assets/9ad01d9f-4b67-4e75-9f45-aeb2941318d5)
 
-3.
+3.Next I had to search for any traffic with the same IP address, but this time for it being the destination. Accomplished this through the command   ip.dst == 142.250.1.139  to find any results for that being the destination IP address.
+![Screenshot 2025-04-15 152656](https://github.com/user-attachments/assets/0ca47c77-5a63-470e-878f-2058ed301e03)
+
+4.
 
